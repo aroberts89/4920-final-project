@@ -40,4 +40,9 @@ void AFinalProjectProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherA
 
 		Destroy();
 	}
+	else if (OtherActor && OtherActor->ActorHasTag("Enemy"))
+	{
+		OtherActor->TakeDamage(1.0f, FDamageEvent(), NULL, this);
+		Destroy();
+	}
 }
