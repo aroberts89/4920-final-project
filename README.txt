@@ -31,3 +31,14 @@ then a "DEFEAT" message will be displayed.
 
 If the player shoots and destroys at least 1 enemy (so that the core isn't
 destroyed), a "VICTORY" message will be displayed.
+
+-- Progress Report
+Reviewing the project proposal and its milestone outline, the project is
+exactly where it was expected to be for the functional minimum.
+
+So far, some of the biggest problems have been:
+* Learning the interaction between C++ and Blueprints
+* Debugging
+
+But those problems aside, nothing was problematic enough to prevent me
+from implementing the features I had originally envisioned.
