@@ -4,41 +4,40 @@ CSCI 4920 - Game Programming
 
 -- Files
 
-* Screenshot.png
-Shows an enemy running at the core.
+* Screenshots/
+This directory has screenshots of gameplay.
 
 * FinalProject.uproject
 Unreal Engine project file.
 
 * Content/FinalProject
-Contains most of the new files
-unique to this project (as opposed to heavy borrowing from
-previous homework assignments).
+Contains the majority of the new assets which are
+unique to this project.
+
+-- Controls
+Usual FPS controls.
+
+* WASD to move
+* Spacebar to jump
+* Mouse to look
+* Left click to fire
 
 -- Play Instructions
 
 Open FinalProject.uproject in Unreal Editor and press play.
 
-An enemy wave spawner, located a little ways directly in front of the
-player's spawn point, will spawn 3 enemies. These enemies will run
-straight at the "core", the large silly-looking object in the middle of
-the arena.
+The goal of the game is to protect the core (located in the middle
+of the arena) from being destroyed. The current health of the core is shown
+on the HUD in the top left.
 
-If they touch the core, they'll do 1 point of damage to it.
+The game ends when either the core is destroyed or all the enemy
+waves have been defeated.
 
-The core has 3 health points. If all 3 enemies reach and damage it,
-then a "DEFEAT" message will be displayed.
+Several waves of enemies will spawn from various spots in the arena.
 
-If the player shoots and destroys at least 1 enemy (so that the core isn't
-destroyed), a "VICTORY" message will be displayed.
+The red balls scattered throughout the arena are speed powerups. Run
+over them to temporarily increase your move speed.
 
--- Progress Report
-Reviewing the project proposal and its milestone outline, the project is
-exactly where it was expected to be for the functional minimum.
-
-So far, some of the biggest problems have been:
-* Learning the interaction between C++ and Blueprints
-* Debugging
-
-But those problems aside, nothing was problematic enough to prevent me
-from implementing the features I had originally envisioned.
+The blue pads on the ground are jump pads. These can be used to
+navigate the arena more quickly and to get to otherwise inaccessible
+platforms.
